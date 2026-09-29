@@ -1,32 +1,29 @@
 # Proyecto-8-Validando-pruebas-de-negocio-con-pruebas-estadisticas
 A/B Test: Landing Page Experiment 🧪
+
 🎯 Objetivo del proyecto
 
 Evaluar un experimento A/B realizado sobre una página de inicio (landing page), comparando dos versiones (A y B), con el fin de determinar cuál genera mayor conversión y mayor valor económico para el negocio, y así apoyar una decisión de negocio basada en datos.
 
 El análisis busca responder preguntas clave como:
-
-¿Qué versión de la página convierte más usuarios?
-¿Qué versión genera mayor gasto promedio por cliente?
-¿Existen diferencias en la efectividad de los distintos canales de tráfico?
-¿El tipo de usuario (nuevo vs. recurrente) influye en la conversión?
+- ¿Qué versión de la página convierte más usuarios?
+- ¿Qué versión genera mayor gasto promedio por cliente?
+- ¿Existen diferencias en la efectividad de los distintos canales de tráfico?
+- ¿El tipo de usuario (nuevo vs. recurrente) influye en la conversión?
 
 📊 Dataset utilizado
 
 landing_experiment.csv — 40,000 registros de usuarios expuestos a la página A o B durante un periodo de 28 días (enero 2026).
-
-Columna	- Tipo de dato	- Descripción
-
-user_id -	Categórica (UUID) -	Identificador único del usuario
-
-date	- Fecha	- Fecha en la que el usuario fue expuesto a la página
-landing	- Categórica	- Versión de la página mostrada (A, B)
-region	- Categórica	- Región geográfica del usuario
-dispositivo	- Categórica -	Tipo de dispositivo utilizado (Mobile, Desktop)
-traffic_source	- Categórica	- Canal por el que llegó el usuario (Organic, Ads, Email, Referral)
-user_type -	Categórica	- Tipo de usuario según historial previo (Nuevo, Recurrente).
-converted -	Binaria (0/1)	- Indica si el usuario realizó una conversión.
-gasto -	Numérica (float)	- Monto gastado por el usuario (0 si no convirtió).
+- Columna	- Tipo de dato	- Descripción
+- user_id -	Categórica (UUID) -	Identificador único del usuario
+- date	- Fecha	- Fecha en la que el usuario fue expuesto a la página
+- landing	- Categórica	- Versión de la página mostrada (A, B)
+- region	- Categórica	- Región geográfica del usuario
+- dispositivo	- Categórica -	Tipo de dispositivo utilizado (Mobile, Desktop)
+- traffic_source	- Categórica	- Canal por el que llegó el usuario (Organic, Ads, Email, Referral)
+- user_type -	Categórica	- Tipo de usuario según historial previo (Nuevo, Recurrente).
+- converted -	Binaria (0/1)	- Indica si el usuario realizó una conversión.
+- gasto -	Numérica (float)	- Monto gastado por el usuario (0 si no convirtió).
 
 🧭 Etapas del análisis
 1. Carga y validación de datos — revisión de nulos, tipos de dato, balance de grupos (A/B), consistencia de categorías y valores atípicos.
