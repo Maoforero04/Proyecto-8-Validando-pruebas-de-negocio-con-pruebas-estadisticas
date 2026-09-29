@@ -6,10 +6,10 @@ Evaluar un experimento A/B realizado sobre una página de inicio (landing page),
 
 El análisis busca responder preguntas clave como:
 
-¿Qué versión de la página convierte más usuarios?
-¿Qué versión genera mayor gasto promedio por cliente?
-¿Existen diferencias en la efectividad de los distintos canales de tráfico?
-¿El tipo de usuario (nuevo vs. recurrente) influye en la conversión?
+  ¿Qué versión de la página convierte más usuarios?
+  ¿Qué versión genera mayor gasto promedio por cliente?
+  ¿Existen diferencias en la efectividad de los distintos canales de tráfico?
+  ¿El tipo de usuario (nuevo vs. recurrente) influye en la conversión?
 
 📊 Dataset utilizado
 
