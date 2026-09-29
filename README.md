@@ -17,7 +17,9 @@ El análisis busca responder preguntas clave como:
 landing_experiment.csv — 40,000 registros de usuarios expuestos a la página A o B durante un periodo de 28 días (enero 2026).
 
 Columna	- Tipo de dato	- Descripción
+
 user_id -	Categórica (UUID) -	Identificador único del usuario
+
 date	- Fecha	- Fecha en la que el usuario fue expuesto a la página
 landing	- Categórica	- Versión de la página mostrada (A, B)
 region	- Categórica	- Región geográfica del usuario
