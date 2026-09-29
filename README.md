@@ -1,6 +1,5 @@
 # Proyecto-8-Validando-pruebas-de-negocio-con-pruebas-estadisticas
 A/B Test: Landing Page Experiment 🧪
-
 🎯 Objetivo del proyecto
 
 Evaluar un experimento A/B realizado sobre una página de inicio (landing page), comparando dos versiones (A y B), con el fin de determinar cuál genera mayor conversión y mayor valor económico para el negocio, y así apoyar una decisión de negocio basada en datos.
@@ -39,9 +38,9 @@ gasto -	Numérica (float)	- Monto gastado por el usuario (0 si no convirtió).
 7. Insight ejecutivo — conclusiones y recomendaciones de negocio accionables, basadas en los resultados de todas las pruebas anteriores.
 
 ▶️ Cómo ejecutar el notebook
-Descarga o clona este repositorio.
-Abre el notebook (.ipynb) en Google Colab:
-Ve a colab.research.google.com
-Selecciona Archivo > Subir notebook y carga el archivo .ipynb, o ábrelo directamente desde GitHub con Archivo > Abrir notebook > GitHub, pegando la URL del repositorio.
-Sube el archivo landing_experiment.csv a la sesión de Colab (panel izquierdo > ícono de carpeta > subir archivo), o móntalo desde Google Drive si prefieres persistencia entre sesiones.
-Ejecuta las celdas en orden (Entorno de ejecución > Ejecutar todas).
+- Descarga o clona este repositorio.
+- Abre el notebook (.ipynb) en Google Colab:
+- Ve a colab.research.google.com
+- Selecciona Archivo > Subir notebook y carga el archivo .ipynb, o ábrelo directamente desde GitHub con Archivo > Abrir notebook > GitHub, pegando la URL del repositorio.
+- Sube el archivo landing_experiment.csv a la sesión de Colab (panel izquierdo > ícono de carpeta > subir archivo), o móntalo desde Google Drive si prefieres persistencia entre sesiones.
+- Ejecuta las celdas en orden (Entorno de ejecución > Ejecutar todas).
