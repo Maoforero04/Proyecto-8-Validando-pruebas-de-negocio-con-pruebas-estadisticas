@@ -1,15 +1,16 @@
 # Proyecto-8-Validando-pruebas-de-negocio-con-pruebas-estadisticas
 A/B Test: Landing Page Experiment 🧪
+
 🎯 Objetivo del proyecto
 
 Evaluar un experimento A/B realizado sobre una página de inicio (landing page), comparando dos versiones (A y B), con el fin de determinar cuál genera mayor conversión y mayor valor económico para el negocio, y así apoyar una decisión de negocio basada en datos.
 
 El análisis busca responder preguntas clave como:
 
-  ¿Qué versión de la página convierte más usuarios?
-  ¿Qué versión genera mayor gasto promedio por cliente?
-  ¿Existen diferencias en la efectividad de los distintos canales de tráfico?
-  ¿El tipo de usuario (nuevo vs. recurrente) influye en la conversión?
+¿Qué versión de la página convierte más usuarios?
+¿Qué versión genera mayor gasto promedio por cliente?
+¿Existen diferencias en la efectividad de los distintos canales de tráfico?
+¿El tipo de usuario (nuevo vs. recurrente) influye en la conversión?
 
 📊 Dataset utilizado
 
