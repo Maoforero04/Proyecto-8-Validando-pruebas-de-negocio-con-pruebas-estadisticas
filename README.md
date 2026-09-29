@@ -22,9 +22,9 @@ landing	- Categórica	- Versión de la página mostrada (A, B)
 region	- Categórica	- Región geográfica del usuario
 dispositivo	- Categórica -	Tipo de dispositivo utilizado (Mobile, Desktop)
 traffic_source	- Categórica	- Canal por el que llegó el usuario (Organic, Ads, Email, Referral)
-user_type -	Categórica	- Tipo de usuario según historial previo (Nuevo, Recurrente)
-converted -	Binaria (0/1)	- Indica si el usuario realizó una conversión
-gasto -	Numérica (float)	- Monto gastado por el usuario (0 si no convirtió)
+user_type -	Categórica	- Tipo de usuario según historial previo (Nuevo, Recurrente).
+converted -	Binaria (0/1)	- Indica si el usuario realizó una conversión.
+gasto -	Numérica (float)	- Monto gastado por el usuario (0 si no convirtió).
 
 🧭 Etapas del análisis
 1. Carga y validación de datos — revisión de nulos, tipos de dato, balance de grupos (A/B), consistencia de categorías y valores atípicos.
